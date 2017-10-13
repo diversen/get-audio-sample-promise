@@ -5,7 +5,7 @@ var audioBufferInstrument = require('audio-buffer-instrument');
 function getAudioSamplePromise (ctx, url) {
 
 	var instrumentPromise = new Promise( (resolve, reject) => { 
-		var promise = tinySampleLoader(url, ctx);
+		var promise = tinySampleLoader(ctx, url);
 		promise.then(  (value) => {
     		var  instrument = new audioBufferInstrument(ctx, value);
 			resolve(instrument);
