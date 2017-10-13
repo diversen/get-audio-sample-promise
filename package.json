@@ -1,6 +1,6 @@
 {
   "name": "get-audio-sample-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Loads a sample from an url and returns a created audio-buffer",
   "main": "index.js",
   "dependencies": {
