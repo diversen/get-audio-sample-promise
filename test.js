@@ -9,12 +9,12 @@ let promise = samplePromise(ctx, 'https://raw.githubusercontent.com/oramics/samp
     audioBuf.connect(ctx.destination);
     audioBuf.start(2);
 
-    // More ravens
+    // Get another buffer
     var audioBuf2 = instrument.get();
     audioBuf2.connect(ctx.destination);
     audioBuf2.start(3);
 
-    // And even more ravens
+    // And yet another
     var audioBuf3 = instrument.get();
     audioBuf3.connect(ctx.destination);
     audioBuf3.start(4);
