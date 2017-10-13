@@ -1,6 +1,6 @@
 # get-audio-sample-promise
 
-    npm install --save get-audio-sample
+    npm install --save get-audio-sample-promise
 
 Loads a sample and returns an [https://www.npmjs.com/package/audio-buffer-instrument](audio-buffer-instrument)
 
