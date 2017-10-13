@@ -1,7 +1,7 @@
 var samplePromise = require('./index');
 var ctx = new AudioContext();
 
-let promise = samplePromise(ctx, 'Raven.mp3').then(function(instrument){
+let promise = samplePromise(ctx, 'https://raw.githubusercontent.com/oramics/sampled/master/DM/CR-78/samples/bongo-h.wav').then(function(instrument){
 
     // Promise success. You have a simple audioBufferInstrument
     // Which you can get and connect

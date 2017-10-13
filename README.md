@@ -2,7 +2,7 @@
 
     npm install --save get-audio-sample-promise
 
-Loads a sample and returns an [https://www.npmjs.com/package/audio-buffer-instrument](audio-buffer-instrument)
+Loads a sample and returns an [audio-buffer-instrument](https://www.npmjs.com/package/audio-buffer-instrument)
 
 `audio-buffer-instrument` is just a convenient method for getting an `audio buffer Source` 
 
