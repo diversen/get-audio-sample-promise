@@ -8,7 +8,7 @@ Loads a sample and returns an [https://www.npmjs.com/package/audio-buffer-instru
 
 ## Usage 
 
-See: [test.js]
+See: [test.js](test.js)
 
 ## Building test
 

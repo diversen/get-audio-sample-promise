@@ -1,0 +1,27 @@
+{
+  "name": "get-audio-sample-promise",
+  "version": "1.0.0",
+  "description": "Loads a sample from an url and returns a created audio-buffer",
+  "main": "index.js",
+  "dependencies": {
+    "audio-buffer-instrument": "^3.0.0",
+    "tiny-sample-loader": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diversen/get-audio-sample-promise.git"
+  },
+  "keywords": [
+    "audo-buffer"
+  ],
+  "author": "dennis iversen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diversen/get-audio-sample-promise/issues"
+  },
+  "homepage": "https://github.com/diversen/get-audio-sample-promise#readme"
+}
